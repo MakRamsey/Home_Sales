@@ -1,13 +1,21 @@
-# Home_Sales
+# PySpark-SparkSQL-Analysis
 
-Greetings!
+Greetings,
 
-Welcome to the Home_Sales repository. Within this project, we were tasked with conducting data analysis via ApacheSpark (SparkSQL) in order to detmine key metrics about a large home sales dataset.
+Welcome to the PySpark-SparkSQL-Analysis repository! Within this project, a large housing dataset was analyzed via the ApacheSpark framework (PySpark & SparkSQL) in order to determine the following key metrics:
 
-Repository Stucture:
+- What is the average price for a four-bedroom house sold for each year?
 
-- 'parq_home_sales' directory: Contains parqauet partitioned data by the 'date_built' field
+- What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms?
 
-- "Home_Sales.ipynb" - Executed Python/SparkSQL analysis code
+- What is the average price of a home for each year the home was built, that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet?
+
+- What is the average price of a home per "view" rating having an average home price greater than or equal to $350,000? 
+
+**Repository Stucture:**
+
+- 'parq_home_sales' directory: Contains Parquet partitioned data by the 'date_built' field
+
+- "Home_Sales.ipynb" - Executed Python/Spark analysis code
 
 Thanks!
